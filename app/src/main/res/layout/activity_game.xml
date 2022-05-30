@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Your HP: 0/0" />
+
+        <Button
+            android:id="@+id/btn_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Move Infromation" />
+
+        <TextView
+            android:id="@+id/tv_stats"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:text="Enemy HP: 0/0" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="59dp"
+        android:layout_height="46dp"
+        android:text="Exit Game"
+        android:textSize="8sp"
+         />
+
+    <LinearLayout
+        android:id="@+id/ll_buttons_categories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_physical"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Physical Attacks" />
+
+        <Button
+            android:id="@+id/btn_magic"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Magic" />
+
+
+        <Button
+            android:id="@+id/btn_items"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Items" />
+
+        <Button
+            android:id="@+id/btn_log"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Combat Log" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_buttons_physical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_att_heavy"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Heavy Attack" />
+
+        <Button
+            android:id="@+id/btn_att_quick"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Quick Attack" />
+
+        <Button
+            android:id="@+id/btn_att_deception"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Deception" />
+
+
+        <Button
+            android:id="@+id/btn_brace"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Brace" />
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/ll_magic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:baselineAligned="false"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_magic1"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="magic 1" />
+
+        <Button
+            android:id="@+id/btn_magic2"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="magic 2" />
+
+        <Button
+            android:id="@+id/btn_magic3"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="magic 3" />
+
+
+        <Button
+            android:id="@+id/btn_magic4"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="magic 4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_item1"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="item 1" />
+
+        <Button
+            android:id="@+id/btn_item2"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="item 2" />
+
+        <Button
+            android:id="@+id/btn_item3"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="item 3" />
+
+
+        <Button
+            android:id="@+id/btn_upArmor"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="item 4" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

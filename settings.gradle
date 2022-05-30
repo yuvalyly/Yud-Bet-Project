@@ -1,0 +1,4 @@
+rootProject.name = "Yuval"
+include ':app'
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('android no2\\unityLibrary')

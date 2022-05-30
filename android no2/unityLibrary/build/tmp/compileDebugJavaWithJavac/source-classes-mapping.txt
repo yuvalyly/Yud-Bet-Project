@@ -1,0 +1,6 @@
+com/unity3d/player/BuildConfig.java
+ com.unity3d.player.BuildConfig
+com/company/product/OverrideUnityActivity.java
+ com.company.product.OverrideUnityActivity
+com/unity3d/player/UnityPlayerActivity.java
+ com.unity3d.player.UnityPlayerActivity

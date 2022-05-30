@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HtPActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="The battle will take place in rounds. In each round the player and opponent choose a move, and then the two make the move they chose at the same time. The moves will be arranged into 3 categories: physical attack, magic, and objects. Moves are also associated with a particular trait from: strength, agility and wisdom. The performance of most moves is affected by how well the feature is related to the move and which feature is related to the opponent's move. Power transcends agility, agility transcends wisdom and wisdom transcends power. In case the move feature outweighs the opponent's move, there is a bonus effect. You can watch the battle history to try to understand the opponent." />
+</LinearLayout>

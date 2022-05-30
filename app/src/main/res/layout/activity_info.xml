@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/infoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Dialog"
+    android:visibility="visible"
+    tools:context=".InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_info_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35dp"
+            android:clickable="true"
+            android:enabled="true"
+            android:text="back" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move description will be desplayed here." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_buttons_categories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_physical"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Physical Attacks" />
+
+        <Button
+            android:id="@+id/btn_magic"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Magic" />
+
+
+        <Button
+            android:id="@+id/btn_items"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Items" />
+
+        <Button
+            android:id="@+id/btn_log"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Combat Log" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_buttons_physical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_att_heavy"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Heavy Attack" />
+
+        <Button
+            android:id="@+id/btn_att_quick"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Quick Attack" />
+
+        <Button
+            android:id="@+id/btn_att_deception"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Deception" />
+
+
+        <Button
+            android:id="@+id/btn_brace"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="Brace" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_magic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_magic1"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="magic 1" />
+
+        <Button
+            android:id="@+id/btn_magic2"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="magic 2" />
+
+        <Button
+            android:id="@+id/btn_magic3"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="magic 3" />
+
+
+        <Button
+            android:id="@+id/btn_magic4"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="magic 4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_item1"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="item 1" />
+
+        <Button
+            android:id="@+id/btn_item2"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="item 2" />
+
+        <Button
+            android:id="@+id/btn_item3"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="item 3" />
+
+
+        <Button
+            android:id="@+id/btn_upArmor"
+            android:layout_width="127dp"
+            android:layout_height="133dp"
+            android:layout_marginRight="10dp"
+            android:text="item 4" />
+
+    </LinearLayout>
+</LinearLayout>
+
